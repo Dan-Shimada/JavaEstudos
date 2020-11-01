@@ -5,38 +5,66 @@ public class scannerLesson {
 
 	public static void main(String[] args) {
 		/*
-		 * Para digitar String Scanner scr = new Scanner(System.in); String x; x =
-		 * scr.next(); System.out.println("Voce didigou: " + x); scr.close();
+		 * Para digitar String 
+		 * Scanner scr = new Scanner(System.in); 
+		 * String x; 
+		 * x = scr.next(); 
+		 * System.out.println("Voce didigou: " + x); 
+		 * scr.close();
 		 */
 
 		/*
-		 * Para digitar um numero inteiro Scanner scr = new Scanner(System.in); int x; x
-		 * = scr.nextInt(); System.out.println("Voce didigou: " + x); scr.close();
+		 * Para digitar um numero inteiro 
+		 * Scanner scr = new Scanner(System.in); 
+		 * int x; 
+		 * x = scr.nextInt(); 
+		 * System.out.println("Voce didigou: " + x); 
+		 * scr.close();
 		 */
 
 		/*
-		 * Para digitar um numero double com notacao virgula Scanner scr = new
-		 * Scanner(System.in); double x; x = scr.nextDouble();
-		 * System.out.println("Voce didigou: " + x); scr.close();
+		 * Para digitar um numero double com notacao virgula 
+		 * Scanner scr = new Scanner(System.in); 
+		 * double x; 
+		 * x = scr.nextDouble();
+		 * System.out.println("Voce didigou: " + x); 
+		 * scr.close();
 		 */
 
 		/*
-		 * Para digitar um numero double com notacao ponto Locale.setDefault(Locale.US);
-		 * Scanner scr = new Scanner(System.in); double x; x = scr.nextDouble();
-		 * System.out.printf("Voce didigou: %.2f%n" , x); scr.close();
+		 * Para digitar um numero double com notacao ponto 
+		 * Locale.setDefault(Locale.US);
+		 * Scanner scr = new Scanner(System.in); 
+		 * double x; 
+		 * x = scr.nextDouble();
+		 * System.out.printf("Voce didigou: %.2f%n" , x); 
+		 * scr.close();
 		 */
 
 		/*
-		 * Para digitar um caractere Locale.setDefault(Locale.US); Scanner scr = new
-		 * Scanner(System.in); char x; x = scr.next().charAt(0);
-		 * System.out.println("Voce didigou: " + x); scr.close();
+		 * Para digitar um caractere 
+		 * Locale.setDefault(Locale.US); 
+		 * Scanner scr = new Scanner(System.in); 
+		 * char x; 
+		 * x = scr.next().charAt(0);
+		 * System.out.println("Voce didigou: " + x); 
+		 * scr.close();
 		 */
 
 		/*
-		 * Para ler diversos tipos Locale.setDefault(Locale.US); Scanner scr = new
-		 * Scanner(System.in); String x; int y; double z; x = scr.next(); y =
-		 * scr.nextInt(); z = scr.nextDouble(); System.out.println("Dados digitados:");
-		 * System.out.println(x); System.out.println(y); System.out.println(z);
+		 * Para ler diversos tipos 
+		 * Locale.setDefault(Locale.US); 
+		 * Scanner scr = new Scanner(System.in); 
+		 * String x; 
+		 * int y; 
+		 * double z; 
+		 * x = scr.next(); 
+		 * y =	scr.nextInt(); 
+		 * z = scr.nextDouble(); 
+		 * System.out.println("Dados digitados:");
+		 * System.out.println(x); 
+		 * System.out.println(y); 
+		 * System.out.println(z);
 		 * scr.close();
 		 */
 
