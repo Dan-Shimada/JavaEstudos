@@ -21,8 +21,8 @@ public class exercicioArquivos {
 
 		List<ProdutosArquivos> list = new ArrayList<>();
 
-		System.out.println("Enter file path: ");
-		String sourceFileStr = sc.nextLine();
+		//System.out.println("Digite o caminho do arquivo: ");
+		String sourceFileStr = "C:\\Java Projetos\\Eclipse\\curso_java\\JavaProjects\\produtos.csv";
 		File sourceFile = new File(sourceFileStr);
 		
 		
@@ -48,6 +48,8 @@ public class exercicioArquivos {
 				// armazena o vetor [1] e o [2] no tipo double/int
 				double price = Double.parseDouble(fields[1]);
 				int quantity = Integer.parseInt(fields[2]);
+				
+				// a lista ficou definida como field[0] = name, field[1] = price e field[2] = quantity devido a separacao a partir do método split
 				
 				// adiciona os elementos 
 				list.add(new ProdutosArquivos(name, price, quantity));

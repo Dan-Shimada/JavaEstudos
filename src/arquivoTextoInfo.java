@@ -14,7 +14,7 @@ public class arquivoTextoInfo {
 		// Exibe somente o nome do arquivo
 		System.out.println("Nome do arquivo(getName): " + path.getName());
 		
-		// Exibe somente o caminho, desprezando o nome
+		// Exibe somente o caminho, desprezando o nome dos arquivos
 		System.out.println("Nome do arquivo(getParent): " + path.getParent());
 		
 		// Exibe o caminho e o nome de arquivo
